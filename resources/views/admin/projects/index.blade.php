@@ -20,7 +20,7 @@
                     <td>{{ $project->end_date }}</td>
                     <td>{{ $project->description }}</td>
                     <td>
-                        <a class="btn btn-primary" href="{{ route('admin.projects.show', $project->id) }}">Info</a>
+                        <a class="btn btn-primary" href="{{ route('admin.projects.show', $project->slug) }}">Info</a>
                     </td>
                 </tr>
             @endforeach
