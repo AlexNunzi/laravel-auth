@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('content')
-    <div class="text-center p-5">
+    <div class="text-center">
         <ul class="list-unstyled">
             <li>
                 <h3>Titolo del progetto:</h3>

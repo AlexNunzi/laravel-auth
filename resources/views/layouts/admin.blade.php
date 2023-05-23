@@ -25,13 +25,13 @@
         @include('partials.header')
 
         <main>
-            <div class="container-fluid">
+            <div class="container">
                 <div class='row'>
                     <div class="col-2">
                         @include('partials.sidebar')
                     </div>
 
-                    <div class="col-10">
+                    <div class="col-10 p-5">
                         @yield('content')
                     </div>
                 </div>
